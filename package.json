@@ -9,7 +9,9 @@
     "lint-js-style": "jscs ."
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.5",
     "css-loader": "^0.19.0",
+    "sass-loader": "^2.0.1",
     "style-loader": "^0.12.4"
   }
 }

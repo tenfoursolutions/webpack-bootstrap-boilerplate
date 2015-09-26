@@ -6,7 +6,9 @@ module.exports = {
   },
   "module": {
     "loaders": [
-      { "test": /\.css$/, "loader": "style!css"}
+      { "test": /\.woff2?$|\.ttf$|\.eot$|\.svg$/, "loader": "file"},
+      { "test": /\.css$/, "loader": "style!css"},
+      { "test": /\.scss$/, "loader": "style!css!sass"}
     ]
   }
 }
