@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   "entry": "./entry.js",
   "output": {
@@ -11,4 +13,4 @@ module.exports = {
       { "test": /\.scss$/, "loader": "style!css!sass"}
     ]
   }
-}
+};
